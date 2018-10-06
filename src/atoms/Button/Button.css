@@ -1,0 +1,10 @@
+.input-button {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 1em 2em;
+}
+.primary {
+  background: #003152;
+  border-color: #003152;
+  color: #fff;
+}

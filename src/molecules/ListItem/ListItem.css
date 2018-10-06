@@ -1,0 +1,13 @@
+.list {
+  border-bottom: 1px solid #ddd;
+  padding: 1em 0;
+  cursor: pointer;
+}
+
+.list:first-child {
+  border-radius: 4px 4px 0 0;
+}
+
+.list:last-child {
+  border-radius: 0 0 4px 4px;
+}

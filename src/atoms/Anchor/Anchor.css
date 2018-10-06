@@ -1,0 +1,10 @@
+.anchor {
+  text-decoration: none;
+  padding: 2em;
+  display: block;
+  color: #2d2d2d;
+}
+
+.anchor:hover {
+  color: #61dafb;
+}
