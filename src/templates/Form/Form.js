@@ -11,6 +11,7 @@ export default class Form extends Component {
     title: ""
   };
   render() {
+    console.log('form');
     return (
       <StartupTemplate>
         <div className="form-base">

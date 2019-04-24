@@ -16,7 +16,7 @@ const getRouteComponent = (param) => {
       return Form
     case '/pending':
       return Pending
-    case 'completed':
+    case '/completed':
       return Completed
     default:
       return StartupTemplate
@@ -26,6 +26,7 @@ const getRouteComponent = (param) => {
 export default (req, res) => {
   const filePath = path.resolve(".", "build", "index.html");
   const Component = getRouteComponent(req.path);
+  console.log(Component);
 
   fs.readFile(filePath, "utf8", (err, htmlData) => {
     if (err) {

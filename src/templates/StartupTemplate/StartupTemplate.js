@@ -2,6 +2,8 @@ import React from 'react'
 import Heading from '../../atoms/Heading/Heading';
 import Navigation from '../../organisms/Navigation/Navigation';
 
+import './StartupTemplate.css';
+
 const StartupTemplate = (props) => 
   <div className="App">
     <Heading level={1} text="My Todo" />

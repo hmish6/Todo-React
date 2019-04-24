@@ -6,7 +6,7 @@ const PORT = 2003;
 const path = require("path");
 const app = express();
 const router = express.Router();
-router.use("^/$", serverRenderer);
+// router.use("^/$", serverRenderer);
 router.use(
   express.static(path.resolve("build"), { maxAge: "30d" })
 );
